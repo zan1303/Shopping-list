@@ -1,0 +1,53 @@
+body {
+  background-color: #f8f4e5; /* Paper-like background color */
+  font-family: "Verdana", sans-serif;
+  margin-top: 100px; /* Font family */
+
+}
+h1{
+text-align: center;
+}
+div{
+  margin: auto ;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+#shopping {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  padding: 3px;
+  margin-bottom: 10px;
+  background-color: #FFFEF9; /* List item background color */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto; /* Adjust width automatically */
+}
+
+.delete-item {
+  background-color: #D3CDB3; /* Delete button background color */
+  color: black; /* Delete button text color */
+  border: none;
+  padding: 2px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.delete-item:hover {
+  background-color: #c0392b; /* Delete button background color on hover */
+}
+
+.strike {
+  text-decoration: line-through;
+}
